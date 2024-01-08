@@ -35,6 +35,8 @@
 - [ ] (optional) protein powder
 
 **protein pancakes**
+- [ ] maple syrup
+- [ ] **TODO**
 
 ### Quick
 **cereal**
