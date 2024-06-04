@@ -52,8 +52,8 @@ class Meal:
     def to_markdown(self):
         ingredients_markdown = "\n".join([f'- [ ] {ingredient}' for ingredient in self.ingredients])
         optional_ingredients_markdown = "\n".join([f'- [ ] (optional) {ingredient}' for ingredient in self.optional_ingredients])
-        return f"""**{self.name}:**
-Style: {self.style}
+        return f"""**{self.name}:**\n
+Style: {self.style}\n
 Ingredients:
 {ingredients_markdown}
 {optional_ingredients_markdown}"""
