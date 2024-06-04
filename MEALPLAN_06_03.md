@@ -2,8 +2,71 @@
 
 ### lunch
 
-**uncrustables:**
+**"adult" lunchables:**
+
 Style: healthy
+
+Ingredients:
+- [ ] crackers
+- [ ] turkey
+- [ ] cheese
+
+
+### dinner
+
+**poke:**
+
+Style: healthy
+
+Ingredients:
+- [ ] rice
+- [ ] chicken breast/tenders
+- [ ] spring onion
+- [ ] sesame seeds
+- [ ] avocado
+- [ ] (optional) fruit
+- [ ] (optional) broccoli
+
+## Tuesday
+
+### lunch
+
+**poke:**
+
+Style: healthy
+
+Ingredients:
+- [ ] rice
+- [ ] chicken breast/tenders
+- [ ] spring onion
+- [ ] sesame seeds
+- [ ] avocado
+- [ ] (optional) fruit
+
+### dinner
+
+**turkey burgies:**
+
+Style: healthy
+
+Ingredients:
+- [ ] ground turkey/patties
+- [ ] bread
+- [ ] ketchup
+- [ ] (optional) lettuce
+- [ ] (optional) tomato
+- [ ] (optional) onion
+- [ ] (optional) mustard
+- [ ] (optional) egg/bacon breakfast version
+
+## Wednesday
+
+### lunch
+
+**uncrustables:**
+
+Style: healthy
+
 Ingredients:
 - [ ] bread
 - [ ] peanut butter
@@ -12,56 +75,49 @@ Ingredients:
 
 ### dinner
 
-**steak & mac/potat/veg:**
-Style: splurgey but protein for occasions
-Ingredients:
-- [ ] steak
-- [ ] herbs (rosemary / thyme)
-- [ ] (optional) broccoli / brussel sprouts
-- [ ] (optional) potato
-- [ ] (optional) mac
+**chicken sammy & mac:**
 
-## Tuesday
+Style: bigger
+
+Ingredients:
+- [ ] chicken breast
+- [ ] buns
+- [ ] flour
+- [ ] cornstarch
+- [ ] pickles 
+- [ ] distilled white vinegar
+- [ ] cucumbers
+- [ ] dill
+- [ ] pickle juice
+- [ ] milk
+- [ ] egg
+- [ ] mac
+- [ ] cheese (kolby / chedda)
+- [ ] heavy cream
+- [ ] butter
+
+
+## Thursday
 
 ### lunch
 
-**chicken/tuna hash:**
+**pasta marinara:**
+
 Style: healthy
+
 Ingredients:
-- [ ] carrots
-- [ ] potatoes
-- [ ] onion
-- [ ] rotini
-- [ ] chicken/tuna
-- [ ] (optional) mozz
-
-### dinner
-
-**potstickers & rice:**
-Style: quick
-Ingredients:
-- [ ] potstickers
-- [ ] rice
-- [ ] (optional) broccoli
-
-## Wednesday
-
-### lunch
-
-**chicken/tuna hash:**
-Style: healthy
-Ingredients:
-- [ ] carrots
-- [ ] potatoes
-- [ ] onion
-- [ ] rotini
-- [ ] chicken/tuna
-- [ ] (optional) mozz
+- [ ] spaghetti/rotini
+- [ ] marinara
+- [ ] mozarella
+- [ ] (optional) other cheeses
+- [ ] (optional) garlic bread
 
 ### dinner
 
 **hash:**
+
 Style: bigger
+
 Ingredients:
 - [ ] beef
 - [ ] rotini
@@ -70,108 +126,94 @@ Ingredients:
 - [ ] potato
 - [ ] (optional) mozz
 
-## Thursday
-
-### lunch
-
-**grilled chicken & rice:**
-Style: healthy
-Ingredients:
-- [ ] chicken breast tenders
-- [ ] rice
-- [ ] milk
-- [ ] protein powder
-- [ ] (optional) fruit
-
-### dinner
-
-**poke:**
-Style: healthy
-Ingredients:
-- [ ] rice
-- [ ] chicken breast/tenders
-- [ ] spring onion
-- [ ] sesame seeds
-- [ ] avocado
-- [ ] (optional) fruit
-- [ ] (optional) broccoli
-
 ## Friday
 
 ### lunch
 
-**pasta salad:**
-Style: healthy
-Ingredients:
-- [ ] pasta salad
-- [ ] olive oil
+**turkey sammy & fruit:**
 
+Style: healthy
+
+Ingredients:
+- [ ] bread
+- [ ] turkey
+- [ ] cheese
+- [ ] mayo
+- [ ] (optional) fruit
+- [ ] (optional) lettuce
+- [ ] (optional) red onion
+- [ ] (optional) tomato
 
 ### dinner
 
-**quesadillas & rice:**
-Style: splurgey but protein for occasions
+**chicken sammy & mac:**
+
+Style: bigger
+
 Ingredients:
-- [ ] tortilla
-- [ ] chicken
-- [ ] rice
-- [ ] mixed cheese
-- [ ] sour cream
+- [ ] chicken breast
+- [ ] buns
+- [ ] flour
+- [ ] cornstarch
+- [ ] pickles 
+- [ ] distilled white vinegar
+- [ ] cucumbers
+- [ ] dill
+- [ ] pickle juice
+- [ ] milk
+- [ ] egg
+- [ ] mac
+- [ ] cheese (kolby / chedda)
+- [ ] heavy cream
+- [ ] butter
 
 
 ## Saturday
 
 ### lunch
 
-**poke:**
+**"adult" lunchables:**
+
 Style: healthy
+
 Ingredients:
-- [ ] rice
-- [ ] chicken breast/tenders
-- [ ] spring onion
-- [ ] sesame seeds
-- [ ] avocado
-- [ ] (optional) fruit
+- [ ] crackers
+- [ ] turkey
+- [ ] cheese
+
 
 ### dinner
 
-**potato soup:**
+**orange chicken:**
+
 Style: bigger
+
 Ingredients:
-- [ ] potato
-- [ ] bacon
-- [ ] onion
-- [ ] garlic
-- [ ] flour
-- [ ] chicken broth
-- [ ] heavy cream
-- [ ] butter
-- [ ] (optional) shredded cheese
-- [ ] (optional) crackers
+
+
 
 ## Sunday
 
 ### lunch
 
-**grilled chicken & rice:**
+**italian chicken & rice:**
+
 Style: healthy
+
 Ingredients:
 - [ ] chicken breast tenders
+- [ ] italian dressing
 - [ ] rice
-- [ ] milk
-- [ ] protein powder
-- [ ] (optional) fruit
+
 
 ### dinner
 
-**chicken/tuna hash:**
-Style: healthy
+**orange chicken:**
+
+Style: bigger
+
 Ingredients:
-- [ ] chicken/tuna
-- [ ] carrots
-- [ ] potatoes
-- [ ] onion
-- [ ] rotini
-- [ ] (optional) mozz
+
+
 
 
