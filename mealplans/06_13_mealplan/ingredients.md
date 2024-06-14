@@ -1,0 +1,47 @@
+- [ ] rice | x4
+- [ ] bread | x3
+- [ ] turkey | x3
+- [ ] cheese | x3
+- [ ] mayo | x3
+- [ ] chicken/tuna | x3
+- [ ] onion | x3
+- [ ] tortilla | x2
+- [ ] chicken | x2
+- [ ] mixed cheese | x2
+- [ ] sour cream | x2
+- [ ] spaghetti/rotini | x2
+- [ ] marinara | x2
+- [ ] mozarella | x2
+- [ ] carrots | x2
+- [ ] potatoes | x2
+- [ ] rotini | x2
+- [ ] onion/green onion
+- [ ] celery
+- [ ] relish
+- [ ] lime/lemon
+- [ ] pesto
+- [ ] ciabatta bread
+- [ ] potato
+- [ ] bacon
+- [ ] garlic
+- [ ] flour
+- [ ] chicken broth
+- [ ] heavy cream
+- [ ] butter
+- [ ] chicken breast tenders
+- [ ] italian dressing
+- [ ] chicken breast/tenders
+- [ ] spring onion
+- [ ] sesame seeds
+- [ ] avocado
+- [ ] (optional) fruit | x3
+- [ ] (optional) tomato | x3
+- [ ] (optional) lettuce | x2
+- [ ] (optional) red onion | x2
+- [ ] (optional) other cheeses | x2
+- [ ] (optional) garlic bread | x2
+- [ ] (optional) mozz | x2
+- [ ] (optional) herbs (cilantro/parsley)
+- [ ] (optional) shredded cheese
+- [ ] (optional) crackers
+- [ ] (optional) broccoli
