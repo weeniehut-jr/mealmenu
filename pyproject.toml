@@ -10,9 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 keywords = []
-authors = [
-  { name = "Michael Cox", email = "mcox59@vols.utk.edu" },
-]
+authors = [{ name = "Michael Cox", email = "mcox59@vols.utk.edu" }]
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
@@ -27,17 +25,15 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/Michael Cox/menumaker#readme"
-Issues = "https://github.com/Michael Cox/menumaker/issues"
-Source = "https://github.com/Michael Cox/menumaker"
+Documentation = "https://github.com/finger-prints/menumaker#readme"
+Issues = "https://github.com/finger-prints/menumaker/issues"
+Source = "https://github.com/finger-prints/menumaker"
 
 [tool.hatch.version]
 path = "src/menumaker/__about__.py"
 
 [tool.hatch.envs.types]
-extra-dependencies = [
-  "mypy>=1.0.0",
-]
+extra-dependencies = ["mypy>=1.0.0"]
 [tool.hatch.envs.types.scripts]
 check = "mypy --install-types --non-interactive {args:src/menumaker tests}"
 
@@ -45,17 +41,11 @@ check = "mypy --install-types --non-interactive {args:src/menumaker tests}"
 source_pkgs = ["menumaker", "tests"]
 branch = true
 parallel = true
-omit = [
-  "src/menumaker/__about__.py",
-]
+omit = ["src/menumaker/__about__.py"]
 
 [tool.coverage.paths]
 menumaker = ["src/menumaker", "*/menumaker/src/menumaker"]
 tests = ["tests", "*/menumaker/tests"]
 
 [tool.coverage.report]
-exclude_lines = [
-  "no cov",
-  "if __name__ == .__main__.:",
-  "if TYPE_CHECKING:",
-]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
