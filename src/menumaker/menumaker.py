@@ -8,6 +8,7 @@ import argparse
 import sys
 from collections import Counter
 from itertools import chain
+from datetime import date
 
 MealMenu = []
 
@@ -24,6 +25,8 @@ def get_args(args=None):
     parser.add_argument('-o', '--output', help='output file to export main markdown')
     parser.add_argument('-i', '--ingredients-output', help='output file for ingredients markdown')
     parser.add_argument('-m', '--menu-file', help='README formatted menu file')
+    parser.add_argument('-s', '--start-date', default=date.today(), type=date.fromisoformat, help='specify start date in ISO format (e.g. 20260614 or 2026-06-14) (default: today)')
+    parser.add_argument('-d', '--days', default=7, type=int, help='number of days to plan')
     return parser.parse_args(args)
 
 class MealEncoder(json.JSONEncoder):
@@ -35,11 +38,17 @@ class MealEncoder(json.JSONEncoder):
         return super().default(obj)
 
 class MealPlan:
-    def __init__(self):
+    def __init__(self, start_date=date.today(), num_days=7):
         mealtimes = ['lunch', 'dinner']
         self.daily_plans = {}
-        for day in calendar.day_name:
-            self.daily_plans[day] = {mealtime: random.choice([meal for meal in MealMenu if meal.mealtime == mealtime]) for mealtime in mealtimes}
+        start_date_weekday = start_date.weekday()
+        weekday_cal = calendar.Calendar(start_date_weekday)
+        while num_days:
+            for day in weekday_cal.iterweekdays():
+                if not num_days: break
+                day_name = calendar.day_name[day]
+                self.daily_plans[day_name] = {mealtime: random.choice([meal for meal in MealMenu if meal.mealtime == mealtime]) for mealtime in mealtimes}
+                num_days -= 1
 
     def get_all_ingredients(self):
         ingredients = Counter()
@@ -135,7 +144,7 @@ def main():
 
     load_readme(path)
     
-    mealplan = MealPlan()
+    mealplan = MealPlan(args.start_date, args.days)
 
     if 'ingredients_output' in args and args.ingredients_output:
         try:
