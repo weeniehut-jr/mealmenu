@@ -33,7 +33,7 @@ Source = "https://github.com/finger-prints/menumaker"
 menumaker = "menumaker.menumaker:main"
 
 [tool.hatch.build.targets.sdist]
-excludes = ["/.git", "/mealplans"]
+excludes = ["/.git", "/mealplans", "/.gitignore"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/menumaker"]
