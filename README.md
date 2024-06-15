@@ -3,6 +3,13 @@
 ## Breakfast
 
 ### Healthy
+**spinach omelette**
+- [ ] egg
+- [ ] spinach
+- [ ] peppers
+- [ ] onion
+- [ ] feta
+
 **bacon/sausage, bread/carb, egg + egg whites scramble**
 - [ ] bacon or sausage
 - [ ] carb
@@ -26,17 +33,13 @@
 - [ ] mayo
 - [ ] (optional) avocado
 
-**oats**
+**baked oats**
 - [ ] oats
 - [ ] cookie butter
 - [ ] brown sugar
 - [ ] cinnamon
 - [ ] almond milk
 - [ ] (optional) protein powder
-
-**protein pancakes**
-- [ ] maple syrup
-- [ ] **TODO**
 
 ### Quick
 **cereal**
@@ -112,7 +115,17 @@
 - [ ] chicken breast tenders
 - [ ] rice
 - [ ] (optional) fruit
+
 ### Quick
+
+**turkey wraps**
+- [ ] turkey
+- [ ] cheese
+- [ ] lettuce
+- [ ] cherry tomatoes
+- [ ] (optional) onion
+- [ ] (optional) chips/snack
+
 **protein shake**
 - [ ] milk
 - [ ] protein powder
@@ -161,6 +174,12 @@
 ## Dinner
 
 ### Healthy
+**spaghetti carbonara**
+- [ ] spaghetti
+- [ ] parmesean
+- [ ] bacon
+- [ ] (optional) chicken
+
 **grilled chicken & rice**
 - [ ] chicken breast tenders
 - [ ] rice
