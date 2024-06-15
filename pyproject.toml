@@ -29,6 +29,15 @@ Documentation = "https://github.com/finger-prints/menumaker#readme"
 Issues = "https://github.com/finger-prints/menumaker/issues"
 Source = "https://github.com/finger-prints/menumaker"
 
+[project.scripts]
+menumaker = "menumaker.menumaker:main"
+
+[tool.hatch.build.targets.sdist]
+excludes = ["/.git", "/mealplans"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/menumaker"]
+
 [tool.hatch.version]
 path = "src/menumaker/__about__.py"
 
