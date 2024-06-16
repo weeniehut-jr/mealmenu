@@ -27,7 +27,7 @@ def get_args(args=None):
     parser.add_argument('-i', '--ingredients-output', help='output file for ingredients markdown')
     parser.add_argument('-m', '--menu-file', help='README formatted menu file')
     parser.add_argument('-s', '--start-date', default=date.today(), type=date.fromisoformat, help='specify start date in ISO format (e.g. 20260614 or 2026-06-14) (default: today)')
-    length_group.add_argument('-e', '--end-date', type=date.fromisoformat, help='specify end date in ISO format ()')
+    length_group.add_argument('-e', '--end-date', type=date.fromisoformat, help='specify end date in ISO format (cannot be used with -d)')
     length_group.add_argument('-d', '--days', default=7, type=int, help='number of days to plan')
     return parser.parse_args(args)
 
