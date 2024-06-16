@@ -8,7 +8,7 @@ import argparse
 import sys
 from collections import Counter
 from itertools import chain
-from datetime import date
+from datetime import date, timedelta
 
 MealMenu = []
 
@@ -22,11 +22,13 @@ mealtime_format = '### {mealtime}\n\n'
 
 def get_args(args=None):
     parser = argparse.ArgumentParser(prog='menumaker', description='generate mealplans')
+    length_group = parser.add_mutually_exclusive_group()
     parser.add_argument('-o', '--output', help='output file to export main markdown')
     parser.add_argument('-i', '--ingredients-output', help='output file for ingredients markdown')
     parser.add_argument('-m', '--menu-file', help='README formatted menu file')
     parser.add_argument('-s', '--start-date', default=date.today(), type=date.fromisoformat, help='specify start date in ISO format (e.g. 20260614 or 2026-06-14) (default: today)')
-    parser.add_argument('-d', '--days', default=7, type=int, help='number of days to plan')
+    length_group.add_argument('-e', '--end-date', default=date.today() + timedelta(days=7), help='specify end date in ISO format ()')
+    length_group.add_argument('-d', '--days', default=7, type=int, help='number of days to plan')
     return parser.parse_args(args)
 
 class MealEncoder(json.JSONEncoder):
