@@ -146,7 +146,11 @@ def main():
 
     load_readme(path)
     
-    mealplan = MealPlan(args.start_date, args.days)
+    days = args.days
+    if 'end_date' in args and args.end_date:
+        days = (args.end_date - args.start_date).days
+
+    mealplan = MealPlan(args.start_date, days)
 
     if 'ingredients_output' in args and args.ingredients_output:
         try:
