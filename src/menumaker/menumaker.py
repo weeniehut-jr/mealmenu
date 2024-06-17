@@ -27,6 +27,7 @@ def get_args(args=None):
     parser.add_argument('-i', '--ingredients-output', help='output file for ingredients markdown')
     parser.add_argument('-m', '--menu-file', help='README formatted menu file')
     parser.add_argument('-s', '--start-date', default=date.today(), type=date.fromisoformat, help='specify start date in ISO format (e.g. 20260614 or 2026-06-14) (default: today)')
+    parser.add_argument('-a', '--add-ingredients', help='a comma-delimited list of additional ingredients to include regardless of meals')
     length_group.add_argument('-e', '--end-date', type=date.fromisoformat, help='specify end date in ISO format (cannot be used with -d)')
     length_group.add_argument('-d', '--days', default=7, type=int, help='number of days to plan')
     return parser.parse_args(args)
@@ -134,6 +135,10 @@ def load_readme(path):
                 meal = Meal.from_readme(f, name, mealtime, style)
                 MealMenu.append(meal)
 
+def get_additional_ingredients(ingredients_arg):
+    ingredients = {ingredient.strip(): 1 for ingredient in ingredients_arg.split(',') if len(ingredient)}
+    return ingredients
+    
 def main():
     args = get_args()
 
@@ -146,6 +151,10 @@ def main():
 
     load_readme(path)
     
+    additional_ingredients = []
+    if 'add_ingredients' in args and args.add_ingredients:
+        additional_ingredients = get_additional_ingredients(args.add_ingredients)
+        
     days = args.days
     if 'end_date' in args and args.end_date:
         days = (args.end_date - args.start_date).days
@@ -156,6 +165,7 @@ def main():
         try:
             with open(args.ingredients_output, 'w') as ingredients_output:
                 ingredients, optional_ingredients = mealplan.get_all_ingredients()
+                ingredients.update(additional_ingredients)
                 for ingredient, count in ingredients.most_common():
                     count_f = f' | x{count}' if count > 1 else ''
                     print(f'- [ ] {ingredient}{count_f}', file=ingredients_output)
