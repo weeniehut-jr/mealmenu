@@ -1,34 +1,51 @@
+## Bakery
 - [ ] sandwich bread
-- [ ] chicken breast/tenders | x3
-- [ ] spring onion | x2
-- [ ] avocado
-- [ ] turkey
-- [ ] cheese
-- [ ] pasta salad
-- [ ] pizza
-- [ ] italian dressing
-- [ ] riceroni
-- [ ] spaghetti
-- [ ] parmesean
-- [ ] bacon
 - [ ] sub buns
+
+## Meat and Seafood
+- [ ] chicken breast/tenders | x3
+- [ ] turkey
+- [ ] bacon
 - [ ] beef
-- [ ] marinara
-- [ ] mozz
-- [ ] breadcrumbs
-- [ ] pepsi
 - [ ] sausage
 - [ ] ground sausage
-- [ ] cereal
-- [ ] eggs
 - [ ] chicken
+- [ ] (optional) chicken
+
+## Produce
+- [ ] spring onion | x2
+- [ ] avocado
 - [ ] lemon/lime
-- [ ] cotija/queso fresco
 - [ ] red chili
 - [ ] cilantro
-- [ ] milk | x3
 - [ ] (optional) fruit | x2
 - [ ] (optional) lettuce
 - [ ] (optional) red onion
 - [ ] (optional) tomato
-- [ ] (optional) chicken
+
+## Dairy
+- [ ] cheese
+- [ ] eggs
+- [ ] cotija/queso fresco
+- [ ] mozz
+- [ ] parmesean
+- [ ] milk | x3
+
+## Deli
+- [ ] pasta salad
+- [ ] pizza
+
+## Condiments and Dressings
+- [ ] italian dressing
+- [ ] marinara
+
+## Dry Goods and Pasta
+- [ ] riceroni
+- [ ] spaghetti
+- [ ] breadcrumbs
+
+## Beverages
+- [ ] pepsi
+
+## Cereal and Breakfast
+- [ ] cereal
