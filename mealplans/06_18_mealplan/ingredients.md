@@ -26,6 +26,7 @@
 - [ ] cotija/queso fresco
 - [ ] red chili
 - [ ] cilantro
+- [ ] milk | x3
 - [ ] (optional) fruit | x2
 - [ ] (optional) lettuce
 - [ ] (optional) red onion
