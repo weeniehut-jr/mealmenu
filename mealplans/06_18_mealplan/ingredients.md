@@ -1,0 +1,33 @@
+- [ ] sandwich bread
+- [ ] chicken breast/tenders | x3
+- [ ] spring onion | x2
+- [ ] avocado
+- [ ] turkey
+- [ ] cheese
+- [ ] pasta salad
+- [ ] pizza
+- [ ] italian dressing
+- [ ] riceroni
+- [ ] spaghetti
+- [ ] parmesean
+- [ ] bacon
+- [ ] sub buns
+- [ ] beef
+- [ ] marinara
+- [ ] mozz
+- [ ] breadcrumbs
+- [ ] pepsi
+- [ ] sausage
+- [ ] ground sausage
+- [ ] cereal
+- [ ] eggs
+- [ ] chicken
+- [ ] lemon/lime
+- [ ] cotija/queso fresco
+- [ ] red chili
+- [ ] cilantro
+- [ ] (optional) fruit | x2
+- [ ] (optional) lettuce
+- [ ] (optional) red onion
+- [ ] (optional) tomato
+- [ ] (optional) chicken
