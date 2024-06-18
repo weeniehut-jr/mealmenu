@@ -46,6 +46,7 @@
 
 ## Beverages
 - [ ] pepsi
+- [ ] distilled water
 
 ## Cereal and Breakfast
 - [ ] cereal
