@@ -42,7 +42,7 @@ class MealEncoder(json.JSONEncoder):
 
 class MealPlan:
     def __init__(self, start_date=date.today(), num_days=7):
-        mealtimes = ['lunch', 'dinner']
+        mealtimes = ['breakfast', 'lunch', 'dinner']
         self.daily_plans = {}
         start_date_weekday = start_date.weekday()
         weekday_cal = calendar.Calendar(start_date_weekday)
