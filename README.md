@@ -163,6 +163,11 @@
 - [ ] italian dressing
 - [ ] rice
 
+**lemon pepper wings**
+- [ ] chicken party wings
+- [ ] lemon pepper seasoning
+- [ ] (optional) fries
+
 ### Bigger
 **poke**
 - [ ] rice
@@ -242,6 +247,11 @@
 - [ ] rice
 - [ ] mixed cheese
 - [ ] sour cream
+
+**lemon pepper wings**
+- [ ] chicken party wings
+- [ ] lemon pepper seasoning
+- [ ] (optional) fries
 
 ### Splurgey but protein for occasions
 **quesadillas & rice**
