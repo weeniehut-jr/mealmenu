@@ -50,7 +50,21 @@ class MealPlan:
             for day in weekday_cal.iterweekdays():
                 if not num_days: break
                 day_name = calendar.day_name[day]
-                self.daily_plans[day_name] = {mealtime: random.choice([meal for meal in MealMenu if meal.mealtime == mealtime and 'TODO' not in meal.ingredients and len(meal.ingredients)]) for mealtime in mealtimes}
+                
+                self.daily_plans[day_name] = {}
+                day_meal_visited = {}
+                for mealtime in mealtimes:
+                    candidate_meals = []
+                    for meal in MealMenu:
+                        if meal.mealtime == mealtime and len(meal.ingredients) and 'TODO' not in meal.ingredients:
+                            if meal.name not in day_meal_visited or day_meal_visited[meal.name] - num_days > 4:
+                                candidate_meals.append(meal)
+                    
+                    new_meal = random.choice(candidate_meals)
+                    self.daily_plans[day_name][mealtime] = new_meal
+                    day_meal_visited[new_meal] = num_days
+                    
+                    
                 num_days -= 1
 
     def get_all_ingredients(self):
