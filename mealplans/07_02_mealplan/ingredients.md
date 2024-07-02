@@ -1,0 +1,60 @@
+- [ ] bread | x5
+- [ ] mayo | x2
+- [ ] fruit | x2
+- [ ] oats | x2
+- [ ] cookie butter | x2
+- [ ] brown sugar | x2
+- [ ] cinnamon | x2
+- [ ] almond milk | x2
+- [ ] rice | x2
+- [ ] bacon
+- [ ] lettuce
+- [ ] tomato
+- [ ] turkey
+- [ ] cheese
+- [ ] pizza
+- [ ] greek yogurt
+- [ ] peanut butter
+- [ ] jelly
+- [ ] ground turkey/patties
+- [ ] ketchup
+- [ ] peanut butta
+- [ ] steak
+- [ ] herbs (rosemary / thyme)
+- [ ] chicken breast/tenders
+- [ ] spring onion
+- [ ] sesame seeds
+- [ ] avocado
+- [ ] spaghetti
+- [ ] beef
+- [ ] peppers
+- [ ] garlic
+- [ ] onion
+- [ ] spaghetti sauce
+- [ ] bacon or sausage
+- [ ] carb
+- [ ] eggs
+- [ ] egg whites
+- [ ] chicken breast tenders
+- [ ] chicken
+- [ ] pepsi
+- [ ] protein shakes
+- [ ] fruits
+- [ ] cereal
+- [ ] (optional) fruit | x3
+- [ ] (optional) protein powder | x3
+- [ ] (optional) lettuce | x2
+- [ ] (optional) tomato | x2
+- [ ] (optional) avocado
+- [ ] (optional) red onion
+- [ ] (optional) nuts
+- [ ] (optional) onion
+- [ ] (optional) mustard
+- [ ] (optional) egg/bacon breakfast version
+- [ ] (optional) protein shake
+- [ ] (optional) broccoli / brussel sprouts
+- [ ] (optional) potato
+- [ ] (optional) mac
+- [ ] (optional) garlic bread
+- [ ] (optional) mozz
+- [ ] (optional) parm
